@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WorldFleetBattles.Models.Enums
 {
-    internal class ShipType
+    public enum ShipType
     {
+        Battleship = 4,
+        Cruiser = 3,
+        Destroyer = 2,
+        Submarine = 1
     }
 }

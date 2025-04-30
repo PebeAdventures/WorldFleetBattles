@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorldFleetBattles.Services
+namespace WorldFleetBattles.Services.Players
 {
-    internal class FleetGenerator
+    internal interface IPlayer
     {
     }
 }

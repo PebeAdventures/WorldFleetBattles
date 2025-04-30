@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorldFleetBattles.Models
+namespace WorldFleetBattles.Models.GameBoard
 {
-    internal class Board
+    internal class Ship
     {
     }
 }

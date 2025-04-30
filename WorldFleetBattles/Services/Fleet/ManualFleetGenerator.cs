@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorldFleetBattles.Models
+namespace WorldFleetBattles.Services.Fleet
 {
-    internal class Fleet
+    internal class ManualFleetGenerator
     {
     }
 }

@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorldFleetBattles.Models.Enums
+namespace WorldFleetBattles.Services.Fleet
 {
-    internal enum BiomeType
+    internal interface IFleetGenerator
     {
-        Fog,
-        Swamp,
-        Storm,
-        Ice
     }
 }

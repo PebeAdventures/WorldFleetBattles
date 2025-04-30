@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorldFleetBattles.Services
+namespace WorldFleetBattles.Services.Fleet
 {
-    internal class GameManager
+    internal class RandomFleetGenerator
     {
     }
 }

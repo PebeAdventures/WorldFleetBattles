@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorldFleetBattles.Models.Enums
+namespace WorldFleetBattles.Services.Players
 {
-    internal enum BiomeType
+    internal class AIPlayer
     {
-        Fog,
-        Swamp,
-        Storm,
-        Ice
     }
 }
