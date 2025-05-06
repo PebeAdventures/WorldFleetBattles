@@ -8,5 +8,6 @@ namespace WorldFleetBattles.Models.GameBoard
 {
     internal class Fleet
     {
+
     }
 }

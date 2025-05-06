@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WorldFleetBattles.Services.Players
 {
-    internal class AIPlayer
+    internal class AIPlayer : PlayerBase
     {
+        public AIPlayer(string name) : base(name)
+        {
+        }
     }
 }

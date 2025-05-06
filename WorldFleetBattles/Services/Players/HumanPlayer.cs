@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WorldFleetBattles.Services.Players
 {
-    internal class HumanPlayer
+    internal class HumanPlayer : PlayerBase
     {
+        public HumanPlayer(string name) : base(name)
+        {
+        }
     }
 }

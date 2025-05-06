@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorldFleetBattles.Services.Players
+namespace WorldFleetBattles.Services.FleetGeneration
 {
-    internal class Player
+    internal interface IFleetGenerator
     {
     }
 }
