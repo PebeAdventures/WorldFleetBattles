@@ -11,5 +11,10 @@ namespace WorldFleetBattles.Services.Players
         public AIPlayer(string name) : base(name)
         {
         }
+
+        public override bool TakeTurn(IPlayer opponent)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

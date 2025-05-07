@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace WorldFleetBattles.Models.ValueObjects
+
 {
     public readonly struct Position : IEquatable<Position>
     {

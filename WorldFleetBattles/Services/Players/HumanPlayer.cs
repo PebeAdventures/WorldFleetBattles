@@ -16,7 +16,8 @@ namespace WorldFleetBattles.Services.Players
         public override bool TakeTurn(IPlayer opponent)
         {
             var target = _input.GetTargetPosition();
-            return Attack(opponent, target);
+            return true;
+            //return Attack(opponent, target);
         }
     }
 }

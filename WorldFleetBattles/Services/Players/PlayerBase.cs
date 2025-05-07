@@ -7,7 +7,7 @@ using WorldFleetBattles.Models.GameBoard;
 
 namespace WorldFleetBattles.Services.Players
 {
-    internal class PlayerBase : IPlayer
+    internal abstract class PlayerBase : IPlayer
     {
         public string Name { get; protected set; }
 
@@ -27,9 +27,6 @@ namespace WorldFleetBattles.Services.Players
             throw new NotImplementedException();
         }
 
-        public bool TakeTurn(IPlayer opponent)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract bool TakeTurn(IPlayer opponent);
     }
 }
