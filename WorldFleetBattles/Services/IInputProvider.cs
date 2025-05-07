@@ -7,7 +7,7 @@ using WorldFleetBattles.Models.ValueObjects;
 
 namespace WorldFleetBattles.Services
 {
-    internal interface IInputProvider
+    public interface IInputProvider
     {
         Position GetTargetPosition();
     }

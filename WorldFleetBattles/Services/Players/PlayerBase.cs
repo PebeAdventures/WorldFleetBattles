@@ -7,7 +7,7 @@ using WorldFleetBattles.Models.GameBoard;
 
 namespace WorldFleetBattles.Services.Players
 {
-    internal abstract class PlayerBase : IPlayer
+    public abstract class PlayerBase : IPlayer
     {
         public string Name { get; protected set; }
 

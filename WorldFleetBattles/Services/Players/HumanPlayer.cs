@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WorldFleetBattles.Services.Players
 {
-    internal class HumanPlayer : PlayerBase
+    public class HumanPlayer : PlayerBase
     {
         private readonly IInputProvider _input;
         public HumanPlayer(string name, IInputProvider input) : base(name)
@@ -16,8 +16,7 @@ namespace WorldFleetBattles.Services.Players
         public override bool TakeTurn(IPlayer opponent)
         {
             var target = _input.GetTargetPosition();
-            return true;
-            //return Attack(opponent, target);
+            return opponent.Board.ProcessShot(target);
         }
     }
 }

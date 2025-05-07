@@ -7,7 +7,7 @@ using WorldFleetBattles.Models.GameBoard;
 
 namespace WorldFleetBattles.Services.Players
 {
-    internal interface IPlayer
+    public interface IPlayer
     {
         string Name { get; }
         Board Board { get; }
