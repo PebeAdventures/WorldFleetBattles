@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace WorldFleetBattles.Models.Enums
 {
-    internal enum BiomeType
+    public enum BiomeType
     {
         Fog,
         Swamp,
         Storm,
-        Ice
+        Ice,
+        Ocean
     }
 }

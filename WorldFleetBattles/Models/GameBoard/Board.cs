@@ -25,7 +25,7 @@ namespace WorldFleetBattles.Models.GameBoard
                 }
             }
         }
-        public bool ReciveShot(Position position)
+        public bool ProcessShot(Position position)
         {
             var cell = Grid[position.X, position.Y];
             cell.ReciveShot();

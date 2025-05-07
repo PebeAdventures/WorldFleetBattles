@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WorldFleetBattles.Models.Enums;
 using WorldFleetBattles.Models.ValueObjects;
 
 namespace WorldFleetBattles.Models.GameBoard
@@ -13,10 +14,12 @@ namespace WorldFleetBattles.Models.GameBoard
         public bool HasShipPart { get; private set; }
         public bool IsHit { get; private set; }
         public Ship? Ship { get; private set; }
+        public BiomeType Biom { get; }
 
-        public Cell(Position position)
+        public Cell(Position position, BiomeType biom = BiomeType.Ocean)
         {
             Position = position;
+            Biom = biom;
         }
 
         public void PlaceShip(Ship ship)
