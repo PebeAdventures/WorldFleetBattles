@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace WorldFleetBattles.Models.GameBoard
 {
-    internal class Fleet
+    public class Fleet
     {
+        public List<Ship> Ships { get; }
 
+        public Fleet(List<Ship> ships)
+        {
+            Ships = ships;
+        }
+
+        public bool AllShipsSunk => Ships.All(ships => ships.IsSunk);
     }
 }
