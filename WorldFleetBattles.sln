@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldFleetBattles", "WorldF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldFleetBattles.test", "WorldFleetBattles.test\WorldFleetBattles.test.csproj", "{E0799C95-95E3-4984-A10B-3F5F01596144}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldFleetBattles.MVC", "WorldFleetBattles.MVC\WorldFleetBattles.MVC.csproj", "{E3F1503C-A903-4E15-A2BE-BF9A141302C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldFleetBattles.API", "WorldFleetBattles.API\WorldFleetBattles.API.csproj", "{701C7127-1C45-46F8-9451-68E105CE8BFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{E0799C95-95E3-4984-A10B-3F5F01596144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0799C95-95E3-4984-A10B-3F5F01596144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0799C95-95E3-4984-A10B-3F5F01596144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F1503C-A903-4E15-A2BE-BF9A141302C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F1503C-A903-4E15-A2BE-BF9A141302C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F1503C-A903-4E15-A2BE-BF9A141302C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F1503C-A903-4E15-A2BE-BF9A141302C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701C7127-1C45-46F8-9451-68E105CE8BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701C7127-1C45-46F8-9451-68E105CE8BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701C7127-1C45-46F8-9451-68E105CE8BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701C7127-1C45-46F8-9451-68E105CE8BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

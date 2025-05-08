@@ -1,0 +1,6 @@
+@WorldFleetBattles.API_HostAddress = https://localhost:5027
+
+GET {{WorldFleetBattles.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
